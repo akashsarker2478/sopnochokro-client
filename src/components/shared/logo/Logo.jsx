@@ -10,7 +10,8 @@ const Logo = ({ className = "" }) => {
           alt="স্বপ্নচক্র লোগো"
           fill 
           priority
-          className="object-contain"
+          sizes="(max-width: 768px) 150px, (max-width: 1200px) 200px, 200px"
+          className="object-contain dark:invert"
         />
       </div>
     </Link>
