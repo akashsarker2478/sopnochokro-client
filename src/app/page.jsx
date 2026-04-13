@@ -4,13 +4,14 @@ import { Button } from "@/components/ui/button";
 
 import { ArrowRight, Sparkles, Map } from "lucide-react";
 import Navbar from "@/components/shared/navbar/Navbar";
+import Hero from "@/components/Hero-Section/Hero";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       {/* নেভিগেশন বার */}
      <Navbar></Navbar>
-
+      <Hero></Hero>
       {/* হিরো সেকশন */}
       <section className="container mx-auto px-4 pt-20 pb-16 text-center">
         {/* একটি ছোট ব্যাজ বা হাইলাইট */}
